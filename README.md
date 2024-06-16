@@ -11,6 +11,9 @@ Part I. The fundamentals of Machine Learning
 7. Ensemble learning and random forests
 8. dimensionality reduction
 9. unsupervised learning techniques
+
+Part II. Neural Networks and Deep Learning
+
 10. Introduction to Artificial Neural Networks with Keras
 11. Training Deep Neural Networks
 12. Custom Models and Training with TensorFlow
