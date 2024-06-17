@@ -1,0 +1,46 @@
+Chapter 0 - Introduction
+
+In 2006, Feoffrey Hinton et al published a paper showing dnn recognizaing handwritten digits w/ state-of-art precision (>98%).
+
+Python frameworks:
+1. Sikit-learn (https://scikit-learn.org) created in 2007
+2. Tensorflow (https://tensorflow.org) created at Google and was open sourced in November 2015, and version 2 released in 2019.
+3. Keras (https://keras.io) is a high-level deep learning API. Keras comes with TensoFlow, and it relies on TensorFlow for all the intensive computations.
+
+Book code example: https://github.com/ageron/handson-ml3
+
+Prerequisites:
+-> python: (https://learnpython.org/ --- https://docs.python.org/3/tutorial/)
+-> Numpy (https://humpy.org)
+-> Pandas (https://pandas.pydata.org)
+-> Matplotlib (https://matplotlib.org)
+-> linear algebra
+-> differential calculus
+-> other mathematical concepts
+
+online tutorial on colab: https://colab.research.google.com/github/ageron/handson-ml3/blob/main/index.ipynb
+online maths help: https://www.khanacademy.org/
+
+
+
+Chapter 1 - The machine learning landscape
+
+Some ML concepts:
+- Data mining: digging into large amounts of data to discover hidden patterns is called data mining, and ml excles at it.
+- Target & labels: are generally treated as synonyms in supvervised learning, but target is more common in regression tasks and label is more common in classification tasks.
+
+Type of ML systems:
+1) supvervised, unsupervised, semi-supervised, and others
+2) online versus batch learning
+3) instace-based vs. model-based learning
+
+e.g. spam filter may learn on the fly using a DNN model trained using human-provised exmaples of spam and ham; this makes it an online, model-based, supervised learning system.
+
+1) 
+- supervised learning: calssification & regression
+- unsupvervised learning: 
+	- clustering
+	- visualization (dimensionality reduction, feature extraction)
+	- anomaly detection / novelty detection
+	- association rule learning
+- semi-supervised learning
