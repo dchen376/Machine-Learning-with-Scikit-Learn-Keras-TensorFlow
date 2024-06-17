@@ -17,10 +17,17 @@ Prerequisites:
 -> linear algebra
 -> differential calculus
 -> other mathematical concepts
-
 online tutorial on colab: https://colab.research.google.com/github/ageron/handson-ml3/blob/main/index.ipynb
 online maths help: https://www.khanacademy.org/
 
+Other resources:
+
+-> Andrew Ng's ML course on Coursera (https://homl.info/ngcourse)
+-> other insteresing websites: 
+	- user guide (https://homl.info/skdoc) # scikit-learn's exceptional user guide
+	- data-quest (https://dataquest.io) # nice interactive tutorials
+	- Ml blogs on Quora (https://homl.info/1)
+-> ML competition websites (https://www.kaggle.com/)
 
 
 Chapter 1 - The machine learning landscape
@@ -33,7 +40,6 @@ Type of ML systems:
 1) supvervised, unsupervised, semi-supervised, and others
 2) online versus batch learning
 3) instace-based vs. model-based learning
-
 e.g. spam filter may learn on the fly using a DNN model trained using human-provised exmaples of spam and ham; this makes it an online, model-based, supervised learning system.
 
 1) 
